@@ -1,5 +1,3 @@
-let colors = ["#eb4888", "#10a2f5", "#e9bc3f"];
-
 (function() {
   setModeEventListener();
   setBioEventListener();
@@ -39,3 +37,5 @@ function off(bioType) {
     e.classList.remove("show");
   });
 }
+
+/* Gallery photos */

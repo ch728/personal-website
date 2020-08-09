@@ -120,7 +120,7 @@ button:hover {
   transition: all 0.4s ease-in;
 }
 blockquote {
-	color: #f2a365;
+	color: #2a365;
 	margin: 0
 }
 blockquote p{
@@ -145,10 +145,6 @@ h2 {
   margin: 0 0 0.5em 0;
 }
 
-h3 {
-	display: inline-block;
-}
-
 a{
   color: #F2A365;
   text-decoration: none;
@@ -156,6 +152,18 @@ a{
 
 a:hover {
   font-weight: bold;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin 0;
+}
+
+.greyText{
+	color: #96979c;
+	font-weight: 300;
+	font-size: 1.17em;
 }
 
 .img-frame {
