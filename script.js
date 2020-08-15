@@ -1,7 +1,12 @@
 (function() {
   setModeEventListener();
   setBioEventListener();
+  setGalleryPhoto();
+  setInterval(() => {
+  	setGalleryPhoto();
+  }, 2500);
 })();
+
 
 /* Dark Mode */
 function setModeEventListener() {
@@ -39,3 +44,10 @@ function off(bioType) {
 }
 
 /* Gallery photos */
+
+function setGalleryPhoto() {
+  let num = Math.floor(Math.random() * 15) +1;
+  document.getElementById("galleryPic").src = `./img/gallery/pic${num}.jpg`;	
+}
+
+
