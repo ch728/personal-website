@@ -1,10 +1,6 @@
 (function() {
   setModeEventListener();
   setBioEventListener();
-  setGalleryPhoto();
-  setInterval(() => {
-  	setGalleryPhoto();
-  }, 2500);
 })();
 
 
@@ -42,12 +38,3 @@ function off(bioType) {
     e.classList.remove("show");
   });
 }
-
-/* Gallery photos */
-
-function setGalleryPhoto() {
-  let num = Math.floor(Math.random() * 15) +1;
-  document.getElementById("galleryPic").src = `./img/gallery/pic${num}.jpg`;	
-}
-
-
