@@ -227,17 +227,10 @@ ul{
   display: block;
 }
 
-.cards {
-	display: flex;
-	flex-wrap: wrap;
-    align-items: center;
-    max-height: 50vh;	
-}
-
-.cards img{
-	margin: 10px;
-    height: 25vh;
-    border: 2px solid #000;
-}
+.image-gallery {overflow: auto; margin-left: -1%!important;}
+.image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+.image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+.image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+.image-gallery li a img {width: 100%; display: block;}
 
 
