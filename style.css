@@ -119,20 +119,6 @@ button:hover {
   border: 2px solid #fff;
   transition: all 0.4s ease-in;
 }
-blockquote {
-	color: #2a365;
-	margin: 0
-}
-blockquote p{
-	padding: 15px;
-	border-radiues: 5px;	
-}
-blockquote p::before{
-	content: '\201C';
-}
-blockquote p::after{
-	content: '\201D';
-}
 
 h1 {
   font-weight: 400;
